@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.wrapper div {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: lightgrey;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*margin: 0.5rem;*/
+}
+
+.wrapper div.green {
+  background-color: #03fc03;
+}
