@@ -2,7 +2,7 @@ const beepSound = new Audio('success.mp3');
 const endSound = new Audio('gtasa.mp3');
 
 let limit = 0;
-let setNum = 100;
+let setNum = 200;
 let clock = null; // Store the interval reference
 
 document.querySelector('#start').addEventListener('click', function () {
@@ -25,7 +25,7 @@ document.querySelector('#start').addEventListener('click', function () {
       clearInterval(clock);
       clock = null; // Clear the reference
     }
-  }, 6000);
+  }, 5000);
 });
 
 // Stop button functionality
